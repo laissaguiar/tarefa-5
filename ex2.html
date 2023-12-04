@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>números de 10 a 100</title>
+  </head>
+  <body>
+    <div id="output"></div>
+
+    <script>
+      const outputElement = document.getElementById("output");
+
+      for (let i = 10; i <= 100; i++) {
+        const para = document.createElement("p");
+        para.textContent = i;
+        outputElement.appendChild(para);
+      }
+    </script>
+  </body>
+</html>
